@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 48px;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+p {
+  font-size: 21px;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+.link {
+  font-size: 21px;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: inherit;
+  background-color: #38cfd9;
+  padding: 1rem 2rem;
+  border-radius: 60px;
+}
+
+.blue-section {
+  background-color: #23424a;
+  padding-left: 7rem;
+  padding-right: 20rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.text-container {
+  width: 80%;
+}
