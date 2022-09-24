@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -18,23 +18,32 @@ p {
 }
 
 .link {
+  display: inline-block;
   font-size: 21px;
   font-weight: bold;
-  color: inherit;
-  text-decoration: inherit;
+  color: #23424a;
+  text-decoration: none;
   background-color: #38cfd9;
   padding: 1rem 2rem;
-  border-radius: 60px;
+  border-radius: 100px;
 }
 
-.blue-section {
+.link:hover,
+.link:focus {
+  opacity: 0.75;
+}
+
+.blue-container-bigger {
   background-color: #23424a;
-  padding-left: 7rem;
-  padding-right: 20rem;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding: 5rem 0;
+}
+
+.blue-container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .text-container {
-  width: 80%;
+  width: 70%;
 }
