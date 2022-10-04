@@ -47,3 +47,46 @@ p {
 .text-container {
   width: 70%;
 }
+
+.white-container {
+  display: flex;
+  gap: 30px;
+  padding: 4rem 7rem;
+}
+
+.col-purple {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.head-purple {
+  color: #87629a;
+}
+
+.head-column {
+  font-size: 36px;
+  /* font-family: Roboto Black; */
+}
+
+.p-purple {
+  color: black;
+}
+
+.marine-container {
+  background-color: #136c72;
+  display: flex;
+  gap: 30px;
+  padding: 4rem 7rem;
+}
+
+.p-marine {
+  color: white;
+}
+
+.head-marine {
+  color: white;
+}
