@@ -51,16 +51,14 @@ p {
 .white-container {
   display: flex;
   gap: 30px;
-  padding: 4rem 7rem;
+  padding: 6rem 7rem;
+  /* width: 80%; */
 }
 
 .col-purple {
   width: 50%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
+  text-align: center;
 }
 
 .head-purple {
@@ -69,6 +67,7 @@ p {
 
 .head-column {
   font-size: 36px;
+  margin-bottom: 1.5rem;
   /* font-family: Roboto Black; */
 }
 
@@ -80,7 +79,11 @@ p {
   background-color: #136c72;
   display: flex;
   gap: 30px;
-  padding: 4rem 7rem;
+  padding: 6rem 7rem;
+}
+
+.col-marine {
+  text-align: center;
 }
 
 .p-marine {
