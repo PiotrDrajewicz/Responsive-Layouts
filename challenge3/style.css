@@ -48,11 +48,17 @@ p {
   width: 70%;
 }
 
+.white-container-bigger {
+  background-color: white;
+  padding: 6rem 0;
+}
+
 .white-container {
   display: flex;
   gap: 30px;
-  padding: 6rem 7rem;
-  /* width: 80%; */
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .col-purple {
@@ -75,11 +81,17 @@ p {
   color: black;
 }
 
-.marine-container {
+.marine-container-bigger {
   background-color: #136c72;
+  padding: 6rem 0;
+}
+
+.marine-container {
   display: flex;
   gap: 30px;
-  padding: 6rem 7rem;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .col-marine {
