@@ -79,9 +79,11 @@ header {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  width: 40%;
-  padding: 0.5rem 0 0.5rem 2rem;
+  padding: 0.5rem 0;
+}
+
+.nav__item {
+  margin-right: 1rem;
 }
 
 .nav__link {
