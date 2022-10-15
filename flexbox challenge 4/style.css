@@ -114,3 +114,6 @@ p {
   color: white;
   font-size: 21px;
 }
+
+@media (max-width: 800px) {
+}
