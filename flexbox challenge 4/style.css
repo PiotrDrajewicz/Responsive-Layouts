@@ -8,6 +8,7 @@
 
 img {
   max-width: 100%;
+  height: 100%;
 }
 
 .flex-d {
@@ -35,6 +36,8 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .title-section h3 {
@@ -61,7 +64,7 @@ p {
   max-width: 1128px;
   flex-direction: column;
   align-items: center;
-  padding: 5rem 0;
+  padding: 5rem 4rem;
 }
 
 .white-section-p-div {
@@ -86,7 +89,7 @@ p {
 
 .black-section {
   max-width: 1128px;
-  padding: 5rem 0;
+  padding: 5rem 4rem;
   gap: 4rem;
 }
 
@@ -98,7 +101,7 @@ p {
 
 .brown-section {
   max-width: 1128px;
-  padding: 5rem 0;
+  padding: 5rem 4rem;
   gap: 4rem;
 }
 
@@ -115,5 +118,17 @@ p {
   font-size: 21px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .black-section,
+  .white-section-p-div {
+    flex-direction: column;
+  }
+
+  .brown-section {
+    flex-direction: column-reverse;
+  }
+
+  .title-section h3 {
+    letter-spacing: 1vw;
+  }
 }
