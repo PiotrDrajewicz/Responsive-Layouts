@@ -199,6 +199,36 @@ header {
     visibility: visible;
     display: flex;
     height: auto;
+    justify-content: space-between;
+  }
+
+  .nav__list {
+    display: flex;
+    gap: 1rem;
+    /* background-color: #87629a; */
+  }
+
+  .nav__item {
+    /* margin: 0 1rem; */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .nav__list--primary {
+    /* margin-left: 5rem; */
+    margin: 0 auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* display: flex; */
+    /* justify-self: center; */
+  }
+
+  .nav__list--secondary {
+    margin: 0;
+    /* margin-left: auto; */
+    /* display: flex; */
+    /* justify-self: flex-end; */
+    /* align-self: flex-end; */
   }
 
   .row {
