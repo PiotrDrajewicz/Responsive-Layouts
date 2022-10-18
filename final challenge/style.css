@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue-darker: #2e323f;
+  --blue-lighter: #3b4050;
+  --grey: #6f737f;
+  --white: white;
+  --brown: #a59678;
+}
