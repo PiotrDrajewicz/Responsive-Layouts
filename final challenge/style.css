@@ -13,3 +13,14 @@
   --white: white;
   --brown: #a59678;
 }
+
+.container {
+  max-width: 1200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.header-container {
+}
