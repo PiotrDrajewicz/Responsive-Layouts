@@ -4,15 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Final</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="header-container container flex">
-        <a href="#">
-          <img src="./images/logo.svg" alt="logo" />
-        </a>
+      <div class="header-container container">
+        <div class="header-buttons flex">
+          <a href="#">
+            <img src="./images/logo.svg" alt="logo" class="logo-img" />
+          </a>
+          <i class="fa-solid fa-bars"></i>
+        </div>
         <nav class="nav flex">
           <ul class="nav-list nav-list-primary">
             <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
@@ -30,7 +40,10 @@
     </header>
     <section class="title-section">
       <div class="title-section-container container">
-        <h1 class="title-h1">Responsive layouts don't have to be a struggle</h1>
+        <h1 class="title-h1">
+          Responsive layouts
+          <span class="title-span">don't have to be a struggle</span>
+        </h1>
         <div class="subtitle-container">
           <p class="subtitle">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -71,7 +84,7 @@
       </div>
     </section>
     <section class="middle-section">
-      <div class="middle-section-container">
+      <div class="middle-section-container container">
         <h2 class="middle-title">It doesn't have to be so hard</h2>
         <p class="middle-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -79,7 +92,7 @@
           minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod.
         </p>
-        <img src="./images/the-image.jpg" alt="main image" />
+        <img src="./images/the-image.jpg" alt="main image" class="middle-img" />
         <p class="middle-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -112,42 +125,74 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="footer-container">
+    <footer class="footer">
+      <div class="footer-container container">
         <h2 class="footer-title">Just scratching the surface</h2>
         <div class="footer-body">
           <div class="footer-col-big">
-            <h3 class="footer-col-big-title">About our company</h3>
+            <h3 class="footer-col-big-title footer-col-title">
+              About our company
+            </h3>
             <p class="footer-col-big-p">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
           </div>
-          <div class="footer-cols-small-container">
+          <div class="footer-cols-small-container flex">
             <div class="footer-col-small">
-              <h3 class="footer-col-small-title">Getting around</h3>
-              <a href="#" class="footer-link">Home</a>
-              <a href="#" class="footer-link">About</a>
-              <a href="#" class="footer-link">Contact</a>
+              <h3 class="footer-col-small-title footer-col-title">
+                Getting around
+              </h3>
+              <p class="footer-item">
+                <a href="#" class="footer-link">Home</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">About</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">Contact</a>
+              </p>
             </div>
             <div class="footer-col-small">
-              <h3 class="footer-col-small-title">Other things</h3>
-              <a href="#" class="footer-link">Lorem ipsum</a>
-              <a href="#" class="footer-link">dolor</a>
-              <a href="#" class="footer-link">sit amet</a>
-              <a href="#" class="footer-link">consectetur</a>
+              <h3 class="footer-col-small-title footer-col-title">
+                Other things
+              </h3>
+              <p class="footer-item">
+                <a href="#" class="footer-link">Lorem ipsum</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">dolor</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">sit amet</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">consectetur</a>
+              </p>
             </div>
             <div class="footer-col-small">
-              <h3 class="footer-col-small-title">Getting around</h3>
-              <a href="#" class="footer-link">Lorem ipsum</a>
-              <a href="#" class="footer-link">dolor</a>
-              <a href="#" class="footer-link">sit amet</a>
-              <a href="#" class="footer-link">consectetur</a>
+              <h3 class="footer-col-small-title footer-col-title">
+                Getting around
+              </h3>
+              <p class="footer-item">
+                <a href="#" class="footer-link">Lorem ipsum</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">dolor</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">sit amet</a>
+              </p>
+              <p class="footer-item">
+                <a href="#" class="footer-link">consectetur</a>
+              </p>
             </div>
           </div>
         </div>
       </div>
     </footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>
