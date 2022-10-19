@@ -6,10 +6,14 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 :root {
   --blue-darker: #2e323f;
   --blue-lighter: #3b4050;
-  --grey: #6f737f;
+  --gray: rgb(247, 247, 247);
   --white: white;
   --brown: #a59678;
 }
@@ -51,31 +55,58 @@
 
 .title-section-container {
   color: var(--white);
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .title-h1 {
-  font-size: 70px;
-  line-height: 4.4rem;
+  font-size: 60px;
+  line-height: 3.5rem;
   /* letter-spacing: 1px; */
   /* word-spacing: 1px; */
 }
 
 .subtitle {
-  font-size: 22px;
-  margin-top: 2rem;
+  font-size: 20px;
+  margin-top: 2.5rem;
 }
 
 .subtitle-button {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .subtitle-link {
   text-transform: uppercase;
   background-color: var(--brown);
-  font-size: 22px;
+  font-size: 24px;
   text-decoration: none;
   color: var(--white);
   border-radius: 100px;
   padding: 0.5rem 1.25rem;
+}
+
+.gray-section {
+  background-color: var(--gray);
+}
+
+.gray-section-container {
+  padding: 3rem 0;
+}
+
+.gray-col:nth-child(2),
+.gray-col:nth-child(3) {
+  padding-top: 2rem;
+}
+
+.gray-col {
+  text-align: center;
+}
+
+.col-title {
+  color: var(--brown);
+  font-size: 24px;
+  /* padding-top: 2rem; */
+}
+
+.col-p {
+  font-size: 20px;
 }
