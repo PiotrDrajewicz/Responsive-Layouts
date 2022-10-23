@@ -256,3 +256,105 @@ a:focus {
 .footer-col-big-p {
   margin-top: 1rem;
 }
+
+@media (min-width: 700px) {
+  .middle-panels-container {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .title-section-container {
+    display: flex;
+  }
+
+  .subtitle-button {
+    text-align: start;
+  }
+
+  .title-h1 {
+    padding-right: 4rem;
+    line-height: 5.5rem;
+  }
+
+  .gray-section-container {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .gray-col:nth-child(2),
+  .gray-col:nth-child(3) {
+    padding-top: 0;
+  }
+
+  .middle-section-container {
+    display: flex;
+  }
+
+  .middle-panels-container {
+    flex-direction: column;
+    margin-left: 6rem;
+  }
+
+  .footer-body {
+    display: flex;
+  }
+
+  .footer-col-big {
+    text-align: start;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .title-h1 {
+    font-size: 90px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .subtitle-link {
+    font-size: 24px;
+  }
+
+  .col-title {
+    font-size: 30px;
+  }
+
+  .col-p {
+    font-size: 18px;
+  }
+
+  .middle-title {
+    font-size: 36px;
+  }
+
+  .middle-p {
+    font-size: 21px;
+  }
+
+  .panel-title {
+    font-size: 30px;
+  }
+
+  .panel-p {
+    font-size: 18px;
+  }
+
+  .footer-title {
+    font-size: 24px;
+  }
+
+  .footer-col-title {
+    font-size: 21px;
+  }
+
+  .footer-col-big-p,
+  .footer-link {
+    font-size: 16px;
+  }
+}
