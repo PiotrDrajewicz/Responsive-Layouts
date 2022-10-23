@@ -34,6 +34,22 @@ a:focus {
   opacity: 0.75;
 }
 
+.logo-a:hover,
+.logo-a:focus {
+  opacity: 1;
+}
+
+.nav-button:hover,
+.nav-button:focus,
+.subtitle-button:hover,
+.subtitle-button:focus {
+  opacity: 0.75;
+}
+
+.burger-btn {
+  cursor: pointer;
+}
+
 .header {
   background-color: var(--blue-darker);
 }
@@ -53,6 +69,10 @@ a:focus {
   margin-top: 1rem;
   text-align: center;
   font-family: var(--oswald);
+}
+
+.nav.hide {
+  display: none;
 }
 
 .nav-list {
