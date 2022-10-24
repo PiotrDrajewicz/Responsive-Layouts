@@ -22,7 +22,8 @@ img {
 
 .container {
   max-width: 1200px;
-  margin: 0 3rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .flex {
@@ -41,8 +42,8 @@ a:focus {
 
 .nav-button:hover,
 .nav-button:focus,
-.subtitle-button:hover,
-.subtitle-button:focus {
+.subtitle-link:hover,
+.subtitle-link:focus {
   opacity: 0.75;
 }
 
@@ -305,8 +306,43 @@ a:focus {
     text-align: start;
   }
 
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .nav.hide {
+    display: inline;
+  }
+
+  .nav {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .nav-list-primary,
+  .nav-list-secondary {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+  }
+
+  .nav-list-primary {
+    /* margin: 0 auto; */
+    margin-left: auto;
+  }
+
   .nav-link {
     font-size: 18px;
+  }
+
+  .nav-item {
+    margin-bottom: 0;
   }
 
   .title-h1 {
